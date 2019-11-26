@@ -1,1 +1,97 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>This is me</title>
+    <link rel="stylesheet" href="C:\Users\Γιώργος\Desktop\stylesheet.css">
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <h3>This is a page about me and here you can find some information about my life.</h3>
+    <h4>Personal Information</h4>
+    <img src="https://live.staticflickr.com/65535/49124218868_8e1b133cee_t.jpg" alt="its-me" id="photo">
+    
+      <ul>
+        <div id="bio">
+          <li><b>Name:</b> Giorgos</li>
+          <li><b>Surname:</b> Makrakis</li>
+          <li><b>Date of birth:</b>          03/02/1996</li>
+          <li><b>Place of birth: </b>Heraklion</li>
+          </div>
+     </ul>
+    
+    <h4>Education</h4>
+     <ul>
+        <li>I have finish the third grade of high-school.</li>
+        <li>Undergraduated student at University of Crete in Physics Department.</li>
+     </ul>
+    <h4>Work Experience</h4>
+    <ul>
+      <li>Waiter in Firi Firi (June 2017-February 2018).</li>
+      <li>Seasonal waiter in Xalavro OpenBar (June 2018-October2018, April 2019-October2019).</li>
+      <li>Waiter in Wets & Drys Speakeasy Bar (November 2018-April 2019).</li>
+    </ul>
+    <p>I got Michigan Lower Certification for the English language and B2 Delf for French. I have been a volunteer for TedX UniversityOfCrete for 2 years (2018 & 2019), CNR (ESN Conference), The Crete Trip (ESN event) and also I was in the board for ESN University of Crete as a Treasurer. </p>
+    <h3>Here are some platforms with links I used to create this assignment:</h3>
+    <ul class="list">
+        <li><a target="_blank" href="https://www.khanacademy.org/computing/computer-programming/html-css"/>Khan Academy</li>
+        <li><a target="_blank" href="https://www.w3schools.com/html/default.asp" target="_blank"/>w3schools</li>
+        <li><a target="_blank" href="https://www.google.com/" target=_blank">Google</a></li>
+        <li><a target="_blank" href="https://www.wikihow.com/Insert-Images-with-HTML">Wikihow</a></li>
+    </ul>
+    <h3>These are some links you can find information about Social Hackers Academy:</h3>
+    <ul class="list">
+        <li><a target="_blank" href="https://socialhackersacademy.org/">Website</a></li>
+        <li><a target="_blank" href="https://www.facebook.com/socialhackersacademy/">Facebook</a></li>
+        <li><a target="_blank" href="https://github.com/SocialHackersCodeSchool">Github</a></li>
+    </ul>
+
+</body>
+</html>
+body {
+    background-color: rgb(37,100,103)
+}
+
+h4 { 
+    text-decoration: underline;
+}
+
+h1,h3 {
+    text-align:center;
+}
+
+#bio {
+     padding-left:100px;
+       padding-top:20px;
+       margin-bottom:50px;
+}
+
+#photo { 
+    float: left; 
+}
+
+* { 
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.list { 
+        text-align: center;
+        list-style-type: none;
+}
+
+p { 
+    margin-bottom: 50px;
+}
+
+a:link {
+    color:blue; text-decoration:none;
+}
+a:visited {
+    color:purple; text-decoration:none
+}
+a:hover {
+     color: red; text-decoration:underline;
+    }
+
+
+
