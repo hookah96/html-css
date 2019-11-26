@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(37,100,103)
+}
+
+h4 { 
+    text-decoration: underline;
+}
+
+h1,h3 {
+    text-align:center;
+}
+
+#bio {
+     padding-left:100px;
+       padding-top:20px;
+       margin-bottom:50px;
+}
+
+#photo { 
+    float: left; 
+}
+
+* { 
+    font-family:"Trebuchet MS", Helvetica, sans-serif;
+}
+
+.list { 
+        text-align: center;
+        list-style-type: none;
+}
+
+p { 
+    margin-bottom: 50px;
+}
+
+a:link {
+    color:blue; text-decoration:none;
+}
+a:visited {
+    color:purple; text-decoration:none
+}
+a:hover {
+     color: red; text-decoration:underline;
+    }
+
+
+
